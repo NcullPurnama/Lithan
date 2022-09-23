@@ -1,0 +1,44 @@
+<h1>XYZ CARS</h1>
+<!--
+<span class="make text-uppercase fw-bold me-1">{{car.make}}</span> -->
+
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/carsale" class="nav-link">Sale</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="width-display">
+    <div class="d-flex flex-wrap justify-content-center justify-content-md-start mt-2">
+    <div class="width-box d-flex flex-column mb-4 me-0 me-md-4" *ngFor="let car of cars">
+        <div class="bg-white rounded shadow-sm">
+          <img src="{{car.carPhoto}}" alt="" class="img-fluid card-img-top">
+          <div class="p-4">
+            <h5><a routerLink="/car-detail/{{car.id}}" class="text-dark">Click for more details</a></h5>
+              <span class="make text-uppercase fw-bold me-1">{{car.make}}</span>
+              <span class="model fw-bold me-1">{{car.model}}</span>
+              <span class="year fw-semibold">{{car.year}}</span>
+              <div class="description text-secondary">{{car.description}}</div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

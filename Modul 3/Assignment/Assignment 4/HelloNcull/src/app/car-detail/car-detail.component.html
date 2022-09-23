@@ -1,0 +1,32 @@
+<div class="container py-4 my-4 mx-auto d-flex flex-column" *ngIf="car">
+    <div class="header">
+        <div class="row r1">
+            <div class="col-md-9 abc fw-semibold">
+              <span class="make text-uppercase fw-semibold me-1 fs-2">{{car.make}}</span>
+              <span class="model fw-semibold me-1 fs-2">{{car.model}}</span>
+              <span class="year fw-semibold fs-2">{{car.year}}</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-body mt-4">
+        <div class="row r3">
+            <div class="col-md-5 p-0 klo">
+                <ul>
+                  <li><div class="col-md-5 text-right pqr"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+                  <li><div class="description text-secondary fs-5">{{car.description}}</div></li><br><br>
+                  <li><div class="description text-secondary fs-5">{{car.details}}</div></li>
+                </ul>
+            </div>
+            <div class="col-md-7"> <img src="{{car.carPhoto}}" width="90%" height="95%"> </div>
+        </div>
+    </div>
+    <div class="footer d-flex flex-column mt-5">
+        <div class="row r4">
+            <div class="col-md-2 myt des"><a href="#">Description</a></div>
+            <div class="col-md-2 myt "><a href="#">Review</a></div>
+            <div class="col-md-2 mio offset-md-4"><a href="#">ADD TO CART</a></div>
+            <div class="col-md-2 myt "><button type="button" class="btn btn-outline-warning"><a href="#">BUY NOW</a></button></div>
+        </div>
+    </div>
+  </div>
