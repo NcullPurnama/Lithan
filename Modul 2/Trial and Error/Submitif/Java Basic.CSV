@@ -1,0 +1,81 @@
+1. Which company Originally Invented Java ?
+Microsoft
+Sun Micro Systems
+Google
+Facebook
+
+2.Java first name when created was oak,
+A.True,
+B.False,
+
+
+3. What is the output of the following code?,
+
+System.out.print(“Hello ”);,
+
+System.out.println(“World ”);,
+
+System.out.print(“Java is fun!”);,
+
+
+A. Hello
+   World Java is fun!,
+
+B. Hello World Java is fun!,
+
+
+C. Hello World
+   Java is fun!,
+
+
+D. Hello,
+   World,
+   Java is fun!,
+
+4. What line creates a scanner object for you to use?,
+A.input = Scanner(System.in);,
+B.Scanner input = Scanner(input);,
+C.Scanner input = new Scanner(System.in),
+D.Scanner input;,
+
+5. array in java are?,
+A.Object references,
+B.Objects,
+C.Primitive data type,
+D.none,
+
+6. Number of primitive data types in Java are?,
+A.	6
+B.	7
+C.	8
+D.	9
+
+
+
+
+7. What is the size of float and double in java?,
+
+A.32 and 64,
+B.32 and 32,
+C.64 and 64,
+D.64 and 32,
+
+
+
+8. Identify the return type of a method that does not return any value.,
+A.int ,
+B.void,
+C.double,
+D.none,
+
+9. Output of Math.floor(3.6)?,
+A.3,
+B.3.0 ,
+C.4,
+D.4.0,
+
+10.What is a correct syntax to output "Hello world" in Java?,
+A.echo("Hello world");,
+B.System.out.println("Hello world");,
+C.Console.WriteLine("Hello world");,
+D.print("Hello world"),

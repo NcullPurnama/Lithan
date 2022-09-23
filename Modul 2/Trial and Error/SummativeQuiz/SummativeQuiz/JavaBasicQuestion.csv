@@ -1,0 +1,11 @@
+What is the size of short variable?,A. 8,B. 16,C. 32,D. 64
+What is the default value of double variable?,A. 0.0d,B. 1,C. 2,D. 3
+What is Set Interface?,A. Set is a collection of element which cannot contain elements along with key,B. Set is a collection of element which cannot hashcode elements,C. Set is a collection of element which cannot contain duplicate elements,D. None of the above
+What is a transient variable?,A. A transient variable is a variable that be serialized during Marked,B. A transient variable is a variable that may not be serialized during Serialization,C. A transient variable is a variable that be serialized during Serialization,D. None of a above
+Which of these statement is incorrect?,A. switch statement is more efficient than a set of nested ifs,B. two case constants in the same switch can have identical values,C. switch statement can only test for equality,D. it is possible to create a nested switch statements
+What is a marker interface?,A. Marker interface is an interface with no method.,B. Marker interface is an interface with no mark-().,C. Marker interface is an interface with no marker-(),D. None of the above 
+Who invented Java Programming?,A.  Guido van Rossum,B. James Gosling,C. Bjarne Stroustrup,D. None of the above
+Which component is used to compile, debug and execute the java programs?,A. IDEA,B. JDE,C. JDK,D. None of the above
+Which one of the following is not a Java feature?,A. jdk,B. Use of pointers,C. portable,D. break
+Which of these cannot be used for a variable name in Java?,A. indentifier and keyword,B. indentifier,C. keyword,D. None of the above
+
