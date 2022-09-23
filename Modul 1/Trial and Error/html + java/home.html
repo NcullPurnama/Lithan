@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ncull</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="java.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Amburadul Airlines</h1>
+        </header>
+
+        <nav>
+            <div class="row">
+                <div class="column" onclick="openTab('b1');" style="background:#008000;">Box 1</div>
+                <div class="column" onclick="openTab('b2');" style="background:blue;">Box 2</div>
+                <div class="column" onclick="openTab('b3');" style="background:red;">Box 3</div>
+            </div>
+        
+            <div id="b1" class="containerTab" style="display:none; background:rgb(118, 223, 255)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 1</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+        
+            <div id="b2" class="containerTab" style="display:none; background:rgb(166, 27, 194)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 2</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+        
+            <div id="b3" class="containerTab" style="display:none; background:rgb(250, 239, 88)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 3</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+        </nav>
+
+        <a href="slideshow.html">click here</a>
+    </body>
+</html>

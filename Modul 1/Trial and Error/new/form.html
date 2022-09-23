@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function javascripterrortest(){
+                var inputName = document.getElementById("name").value;
+                var inputEmail = document.getElementById("email").value;
+                var inputTlpn = document.getElementById("tlpn").value;
+
+                if(inputName==""){
+                    alert("name is empty");
+                    return false;
+                }else if (inputEmail==""){
+                    alert("email is empty");
+                    return false;
+                }else if (inputTlpn==""){
+                    alert("Phone number is empty");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <form onsubmit="return javascripterrortest()">
+            <div class="tablecenter">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name"><br><br>
+                        </td>
+                    </tr>
+                 
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="text" id="email" name="email"><br><br>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="tlpn">Phone Number</label>
+                        </td>
+                        <td>
+                            <input type="tlpn" id="tlpn" name="tlpn"><br><br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

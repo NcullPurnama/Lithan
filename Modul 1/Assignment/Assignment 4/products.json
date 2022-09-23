@@ -1,0 +1,28 @@
+{
+   "products": [
+      {
+         "name": "Mushrooms",
+         "imgPath": "img/products/mushroom.jpg",
+         "details": "mushroom",
+         "price": 2.5
+      },
+      {
+         "name": "Potatos",
+         "imgPath": "img/products/potato.jpg",
+         "details": "potatos",
+         "price": 3.5
+      },
+      {
+         "name": "Carrots",
+         "imgPath": "img/products/carrot.jpg",
+         "details": "carrots",
+         "price": 4.5
+      },
+      {
+         "name": "Tomatoes",
+         "imgPath": "img/products/tomatoes.jpg",
+         "details": "tomatoes",
+         "price": 5.5
+      }
+   ]
+}

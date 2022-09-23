@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ABC LEARNING CENTER</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="ABC.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="ABC-Register.css">
+    </head>
+
+
+    <body>
+        <div class="site-branding">
+            <div class="grid-container-1">
+
+                <div class="grid-item-1">
+                    <img src="logo.jpeg" title="ABC Learning Center"  rel="home">
+                </div>
+
+                <div class="grid-item-1">
+                        <h1 title="ABC Learning Center"  rel="home">ABC Learning Center</h1>
+                </div>
+
+            </div>
+        </div>
+
+       <div class="clear"></div>
+
+        <div class="scrollmenu">
+            <a href="Home.html">Home</a>
+            <a href="Course.html">Course</a>
+            <a href="AboutUs.html">About Us</a>
+        </div>
+
+        <nav></nav>
+        
+        <section>
+            <article>
+                <h3>Registration Form</h3>
+        
+                <div class="container">
+                    <div class="validation">
+                        <div class="validasi">
+                            <form action="Thx.html" method="POST" onSubmit="validasi()" class="form1" id="form">
+                                <div class="validation">
+                                    <div class="validasi">
+                                        <h2 style="text-align: center;">Register</h2>
+                                        <p>
+                                            <label>First Name:</label>
+                                            <input type="text" id="name" placeholder="First name..." />
+                                        </p>
+                                        <p>
+                                            <label>Last name:</label>
+                                            <input type="text" id="last-name" placeholder="last name..." />
+                                        </p>
+                                        <p>
+                                            <label>Email:</label>
+                                            <input type="email" id="email" placeholder="input email..." />
+                                        </p>
+                                        <p>
+                                            <label>Course:</label>
+                                            <select id="course">
+                                                <option value="html">Html</option>
+                                                <option value="java">Java</option>
+                                                <option value="Microsoft Office">M.Office</option>
+                                                <option value=".NET">.NET</option>
+                                            </select>
+                                        </p>
+                                        <div class="register">
+                                            <p>
+                                                <input id="submit-btn" type="submit" name="submit" value="submit">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+    </body>
+
+    <script type="text/javascript">
+        function validasi() {
+            var inputName = document.getElementById("name").value;
+            localStorage.setItem("name", inputName.value);
+
+            var inputLastname = document.getElementById("name").value;
+            localStorage.setItem("last name", inputLastname.value);
+
+            var inputEmail = document.getElementById("email").value;
+            localStorage.setItem("email", inputEmail.value)
+
+            if (name != "" && email!="") {
+                return true;
+            }else{
+                alert('Fill the form completely !');
+            }
+        }
+    </script>
+    <script src="leadform.js"></script>
+
+</html>
+        
