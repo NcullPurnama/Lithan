@@ -1,0 +1,23 @@
+.registration{
+    min-height: 90vh;
+}
+
+form{
+    padding: 15vh 0;
+}
+
+form input, form button{
+    width: 60%;
+    margin: auto;
+}
+
+.container, form{
+    width: 45vw;
+}
+
+
+
+/* Responsive */
+/* @media only screen (max-width) {
+    
+} */

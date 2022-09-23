@@ -1,0 +1,10 @@
+package com.Ncull.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class turuController {
+	public String home() {
+		return "indeks";
+	}
+}

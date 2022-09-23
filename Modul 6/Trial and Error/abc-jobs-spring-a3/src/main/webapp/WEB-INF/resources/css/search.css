@@ -1,0 +1,8 @@
+form.search{
+    margin: 30vh;
+}
+
+input, .btn-search{
+    width: 80%;
+    margin: 10px 0;
+}

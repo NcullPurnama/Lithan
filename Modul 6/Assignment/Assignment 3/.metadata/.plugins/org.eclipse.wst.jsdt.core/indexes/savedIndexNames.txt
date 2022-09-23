@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Documents\minchul\kuliah\Modul 6\Assignment 3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1879497471.index
+2874064745.index
+2522524278.index
+563899806.index
+1942149613.index
+620955527.index
+462144131.index

@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\Documents\minchul\kuliah\Modul 6\Assignment finale\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\638421838.index
+\CommunityPortal\src\main\java
+D:\Documents\minchul\kuliah\Modul 6\Assignment finale\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1115525073.index
+\CommunityPortal\src\main\java
+D:\Documents\minchul\kuliah\Modul 6\Assignment finale\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\801974711.index
+\abcportal\src\main\java
+D:\Documents\minchul\kuliah\Modul 6\Assignment finale\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3005864160.index
+\abcportal\src\main\java

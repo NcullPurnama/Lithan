@@ -1,0 +1,15 @@
+127.0.0.1 - - [16/Sep/2022:13:47:20 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/ HTTP/1.1" 200 9693
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/css/home.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/hero/hero.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/Partners/aws.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/Partners/facebook.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/Partners/google.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/Partners/huawei.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/Partners/microsoft.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/logo/google.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/logo/facebook.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:26 +0700] "GET /CommunityPortal/images/logo/huawei.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:13:47:27 +0700] "GET /favicon.ico HTTP/1.1" 404 762

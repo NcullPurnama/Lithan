@@ -1,0 +1,4 @@
+mail.Host = smtp.gmail.com
+mail.Username = ncullpurnama@gmail.com
+mail.Password = uhidnkbskbznvqay
+mail.Port = 587

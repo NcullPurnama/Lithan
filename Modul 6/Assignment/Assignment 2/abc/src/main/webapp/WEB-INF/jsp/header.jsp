@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+ 
+<head>
+	<link 
+    href="https://bootswatch.com/5/lux/bootstrap.min.css" 
+    rel="stylesheet">
+    
+    <!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+    href="https://bootswatch.com/5/lux/bootstrap.css"
+    rel="stylesheet">
+    
+    <link href="@{/bootstrap.min.css}" rel="stylesheet">
+    <link href="/src/main/resources/static/bootstrap.min.css" rel="stylesheet">
+</head>
+   
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="/">ABC JOBS</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarColor01">
+	      <ul class="navbar-nav me-auto">
+	        <li class="nav-item">
+	          <a class="nav-link active" href="#">Home
+	            <span class="visually-hidden">(current)</span>
+	          </a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">People</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Jobs</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Account</a>
+	        </li>
+	      </ul>
+	    </div>
+	      <button type="button" class="btn btn-outline-secondary">Login</button>
+	      <button type="button" class="btn btn-outline-secondary">Register</button>
+	  </div>
+	</nav>
+</body>    
+    

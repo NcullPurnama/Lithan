@@ -1,0 +1,5 @@
+package com.abc.register;
+
+public class ProfileRepository {
+
+}

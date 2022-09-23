@@ -1,0 +1,85 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<!-- <link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"> -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<title>Registration</title>
+</head>
+<body>
+	<%@ include file="header1.jsp"%>
+	<h1 class="d-flex justify-content-center mb-5">Registration Form</h1>
+
+	 <main>
+        <div class="container mt-5 mb-5">
+          <form:form action="thank-you" method="post" id="form" modelAttribute="register" onsubmit="return checkValidation()">
+            <div class="row justify-content-center">
+              <div class="col-lg-5 col-md-8">
+                <div class="d-flex flex-column regis-wrapper">
+                  <div class="heading">
+                    <h2>Register</h2>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <form:input path="email" type="text" name="email" placeholder="test@email.com" class="form-control" id="email" />
+                  </div>
+                  <p class="error errorEmail">Email is required</p>
+
+                  <!-- Password -->
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <form:input path="password" type="password" name="password" placeholder="Password" class="form-control" id="password" />
+                  </div>
+                  <p class="error errorPassword">Password is required</p>
+
+                  <!-- First Name -->
+                  <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <form:input path="profile.first_name" type="text" name="first_name" placeholder="Amir" class="form-control" id="fname" />
+                  </div>
+                  <p class="error errorFname">First Name is required</p>
+
+                  <!-- Last Name -->
+                  <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <form:input path="profile.last_name" type="text" name="last_name" placeholder="El-Amari" class="form-control" id="lname" />
+                  </div>
+                  <p class="error errorLname">Last Name is required</p>
+
+                  <!-- Country -->
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <form:input path="profile.country" type="text" name="country" placeholder="Indonesia" class="form-control" id="country" />
+                  </div>
+                  <p class="error errorCountry">Country is required</p>
+
+                  <!-- City -->
+                  <div class="form-group">
+                    <label for="city">City</label>
+                    <form:input path="profile.city" type="text" name="city" placeholder="Bandung" class="form-control" id="city" />
+                  </div>
+                  <p class="error errorCity">City is required</p>
+
+                  <button type="submit" class="btn btn-primary mt-4">Register</button>
+                </div>
+              </div>
+            </div>
+          </form:form>
+        </div>
+      </main>
+	
+<%@ include file="footer.jsp"%>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script type="text/javascript" src="script/registration.js"></script>
+</body>
+</html>

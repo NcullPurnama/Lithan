@@ -1,0 +1,6 @@
+spring.mail.host=smtp.gamul.com
+spring.mail.port=587
+spring.mail.username=ncullpurnama@gmail.com
+spring.mail.password=lithanbangsat123
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smpt.starttle.enable=true

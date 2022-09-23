@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Documents\minchul\kuliah\Modul 6\testo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+993008257.index
+2903671470.index
+3492031330.index
+3271193799.index
+2671583064.index
+3781930340.index
+2131955228.index
